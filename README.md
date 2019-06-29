@@ -124,7 +124,7 @@ The `withRedux` function accepts `makeStore` as first argument. The `makeStore` 
 should return a new instance of Redux `store` each time when called, no memoization needed here, it is automatically done
 inside the wrapper.
 
-`withRedux` also optionally accepts a config object as second paramter:
+`withRedux` also optionally accepts a config object as second parameter:
 
 - `storeKey` (optional, string) : the key used on `window` to persist the store on the client
 - `debug` (optional, boolean) : enable debug logging
